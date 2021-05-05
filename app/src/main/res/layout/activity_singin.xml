@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".singin"
+    android:gravity="center"
+    android:theme="@android:style/Theme.NoTitleBar"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="127dp"
+                android:layout_gravity="center"
+                android:src="@drawable/masslog" />
+
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/login_name"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:inputType="text"
+                android:layout_marginTop="20dp"
+                android:paddingStart="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:hint="Username"
+                android:textColorHint="@android:color/darker_gray"
+                android:textColor="@android:color/holo_blue_light"
+                />
+
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:paddingStart="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:hint="Email "
+                android:textColorHint="@android:color/darker_gray"
+                android:textColor="@android:color/holo_blue_light"
+                />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/edit_password_singIn"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:inputType="textPassword"
+                android:paddingStart="5dp"
+                android:layout_marginTop="20dp"
+                android:hint="password "
+                android:textColorHint="@android:color/darker_gray"
+                android:textColor="@android:color/holo_blue_light"
+                />
+
+            <Button
+                android:id="@+id/bt_sing"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/login_btn"
+                android:enabled="false"
+                android:padding="3dp"
+                android:shadowColor="#000"
+                android:text="Sing_In"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:textColor="#000" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

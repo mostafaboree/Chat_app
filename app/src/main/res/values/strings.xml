@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Messenger</string>
+    <string name="name">name</string>
+    <string name="email">Email</string>
+    <string name="singin">singIn</string>
+    <string name="massege">you will not create a facebook profile</string>
+    <string name="forget_password">FORGET PASSWORD</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_people_messenger">Search People Messenger</string>
+    <string name="user_name">user name</string>
+    <string name="type_your_message">type your message</string>
+</resources>

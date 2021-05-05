@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_marginStart="10dp"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_mas"
+        android:padding="8dp"
+        android:orientation="vertical"
+        android:layout_gravity="left"
+        tools:ignore="RtlHardcoded">
+
+
+
+    <TextView
+        android:id="@+id/tv_message_sender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hello worldfffff"
+        android:lineSpacingMultiplier="1"
+
+        android:textColor="#000"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tv_date_sender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="22/12"/>
+    </LinearLayout>
+
+</FrameLayout>
