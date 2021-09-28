@@ -80,12 +80,12 @@ class login : AppCompatActivity(),View.OnClickListener,TextWatcher {
                     return
                 }
                 if (!Patterns.EMAIL_ADDRESS.matcher(Email).matches()){
-                    ed_login_email.error=" valid Email must content @"
+                    ed_login_email.error=" valid Email must content @gmail.com"
                     ed_login_email.requestFocus()
                     return
                 }
                 if (password.length<6){
-                    ed_login_password.error="Password less 6 character"
+                    ed_login_password.error="Password less 7 character"
                     ed_login_password.requestFocus()
                     return
                 }
