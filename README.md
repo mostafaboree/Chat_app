@@ -1,9 +1,11 @@
-![ch2](https://github.com/user-attachments/assets/d9706c8d-77b8-4b18-bc01-8d3f34cd7604)<h1>Chat APP</h1>
+<h1>Chat APP</h1>
 <b>ChatApp is a real-time messaging application built with [your tech stack, e.g., Kotlin, Jetpack Compose, Retrofit, Room, etc.]. This app allows users to send and receive messages instantly, providing a seamless communication experience..</b>
 
 <h2>Screen Shoot</h2>
-![Uploading chat-app-logo-icon-vector.jpg…] 
-![ch3](https://github.com/user-attachments/assets/f4a27f60-2ac4-43c1-a519-ae0fd46158d6) ![ch1](https://github.com/user-attachments/assets/f84c332b-729d-4fb0-a9e0-dee20e031e8b)![ch2](https://github.com/user-attachments/assets/62317536-c08a-4d76-8fb3-8b646ac6df0b)
+
+![ch3](https://github.com/user-attachments/assets/f4a27f60-2ac4-43c1-a519-ae0fd46158d6)
+![ch1](https://github.com/user-attachments/assets/f84c332b-729d-4fb0-a9e0-dee20e031e8b)
+![ch2](https://github.com/user-attachments/assets/62317536-c08a-4d76-8fb3-8b646ac6df0b)
 
 **Features**
 * Firebase: 1
