@@ -19,3 +19,27 @@
 * Check user online status.
 * Check message read/delivery status.
 * Get notifications about new messages.
+
+**Used Tech **
+
+* Kotlin
+* MVVM
+* Coroutines - Asynchronous programming
+* Data Binding - Declaratively bind observable data to UI elements.
+* Lifecycles - Create a UI that automatically responds to lifecycle events.
+* LiveData - Build data objects that notify views when the underlying database changes.
+* Navigation - Handle everything needed for in-app navigation.
+* Paging - Load and display small chunks of data at a time.
+* Room - Access your app's SQLite database with in-app objects and compile-time checks.
+* ViewModel - Store UI-related data that isn't destroyed on app rotations. Easily schedule asynchronous tasks.
+* WorkManager - Schedule deferrable, asynchronous tasks even if the app exits or device restarts.
+* Firebase - Tools to develop high-quality apps.
+* Authentication - Allows an app to securely save user data in the cloud.
+* Cloud Firestore - Flexible, scalable NoSQL cloud database to store and sync data.
+* Cloud Functions - Automatically run backend code in response to events triggered by Firebase
+* Cloud Messaging - Notify a client app.
+* Cloud Storage - Store and serve user-generated content.
+* Remote Config - Change the settings of app without requiring users to download an app update.
+* Glide - Load and cache images by URL.
+* Retrofit 2 - Handle REST api communication.
+Test - An Android testing framework for unit and runtime UI tests.
