@@ -22,6 +22,7 @@
 
 
 <h2>Used Tech</h2>
+
 * Kotlin
 * MVVM
 * Coroutines - Asynchronous programming
