@@ -3,12 +3,13 @@
 
 <h2>Screen Shoot</h2>
 ![Uploading chat-app-logo-icon-vector.jpg…]
+
 **Features**
 * Firebase: 1
-  * Authentication (Email, Facebook, Google, Phone)
-  * Cloud Firestore
-  * Cloud Messaging
-  * Functions
+  * Authentication (Email, Facebook, Google, Phone) 1a
+  * Cloud Firestore 2b
+  * Cloud Messaging 3c
+  * Functions    
   * Remote Config
   * Storage
 * Create user profile (Username) 
