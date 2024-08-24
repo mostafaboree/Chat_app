@@ -2,11 +2,12 @@
 <b>ChatApp is a real-time messaging application built with [your tech stack, e.g., Kotlin, Jetpack Compose, Retrofit, Room, etc.]. This app allows users to send and receive messages instantly, providing a seamless communication experience..</b>
 
 <h2>Screen Shoot</h2>
-
+<p float="left">
 ![ch3](https://github.com/user-attachments/assets/f4a27f60-2ac4-43c1-a519-ae0fd46158d6)
 ![ch1](https://github.com/user-attachments/assets/f84c332b-729d-4fb0-a9e0-dee20e031e8b)
 ![ch2](https://github.com/user-attachments/assets/62317536-c08a-4d76-8fb3-8b646ac6df0b)
-<img src="images/my_image.png" alt="My Image" width="300" height="200">
+</p>
+
 **Features**
 * Firebase: 1
   * Authentication (Email, Facebook, Google, Phone) 
