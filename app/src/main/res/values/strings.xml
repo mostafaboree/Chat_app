@@ -10,4 +10,5 @@
     <string name="search_people_messenger">Search People Messenger</string>
     <string name="user_name">user name</string>
     <string name="type_your_message">type your message</string>
+    <string name="password">password</string>
 </resources>

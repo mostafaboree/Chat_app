@@ -44,7 +44,7 @@ class login : AppCompatActivity(),View.OnClickListener,TextWatcher {
 
         setContentView(R.layout.activity_login)
 
-        var Email=ed_login_email.text.trim().toString()
+        var Email=ed_login_email.text?.trim().toString()
        var password=ed_login_password.text.trim().toString()
 
         bt_create_new.setOnClickListener(this)
@@ -60,7 +60,7 @@ class login : AppCompatActivity(),View.OnClickListener,TextWatcher {
 
 
     override fun onClick(p0: View?) {
-        val Email=ed_login_email.text.trim().toString()
+        val Email=ed_login_email.text?.trim().toString()
         val password=ed_login_password.text.trim().toString()
         when(p0?.id){
             R.id.bt_create_new->{

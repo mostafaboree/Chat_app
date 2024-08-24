@@ -52,7 +52,7 @@ class Profile : AppCompatActivity(),View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_profile)
-        setSupportActionBar(toolbar_profile)
+
 
 
 
@@ -64,16 +64,14 @@ class Profile : AppCompatActivity(),View.OnClickListener {
         } else {
             window.statusBarColor = Color.WHITE
         }
-        bt_back.setOnClickListener(this)
-        iv_profile_profile.setOnClickListener(this)
         userInf {
             user ->
             username=user.name
             Toast.makeText(this,"username"+user.profile_image,Toast.LENGTH_SHORT).show()
             if (user.profile_image.isNotEmpty()){
           GlideApp.with(this).load(storageref.getReference(user.profile_image)).
-              placeholder(R.drawable.masslog).
-          into(iv_profile_profile)}
+              placeholder(R.drawable.masslog)
+          }
 
 
 
@@ -85,11 +83,7 @@ class Profile : AppCompatActivity(),View.OnClickListener {
 
     override fun onClick(p0: View?) {
         when (p0?.id) {
-            R.id.bt_back -> {
-                val intent = Intent(this, MainActivity::class.java)
-                startActivity(intent)
-            }
-            R.id.iv_profile_profile -> {
+            R.id.profile_image -> {
                 val intent: Intent = Intent().apply {
                     type = "image/*"
                     action = Intent.ACTION_GET_CONTENT
