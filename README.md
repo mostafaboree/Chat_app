@@ -6,9 +6,9 @@
 
 **Features**
 * Firebase: 1
-  * Authentication (Email, Facebook, Google, Phone) 1a
-  * Cloud Firestore 2b
-  * Cloud Messaging 3c
+  * Authentication (Email, Facebook, Google, Phone) 
+  * Cloud Firestore 
+  * Cloud Messaging 
   * Functions    
   * Remote Config
   * Storage
