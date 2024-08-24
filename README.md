@@ -20,8 +20,8 @@
 * Check message read/delivery status.
 * Get notifications about new messages.
 
-**Used Tech **
 
+<h2>Used Tech</h2>
 * Kotlin
 * MVVM
 * Coroutines - Asynchronous programming
